@@ -16,6 +16,7 @@
       
       <div class="no-results" v-if="animeList.length == 0">
         <h4>Sorry, we have no results ......</h4>
+        <!-- <h2>Credit</h2> -->
       </div>
 
       <div class="cards" v-else>
@@ -23,6 +24,8 @@
       </div>
     </main>
     
+
+    <!-- Credit -->
   </div>
 </template>
 
